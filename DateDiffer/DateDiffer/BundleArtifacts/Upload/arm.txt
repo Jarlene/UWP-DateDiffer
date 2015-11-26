@@ -1,0 +1,7 @@
+MainPackage=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\bin\ARM\Release\Upload\DateDiffer_3.3.1.0_ARM.appx
+SymbolPackage=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\AppPackages\DateDiffer_3.3.1.0\DateDiffer_3.3.1.0_ARM.appxsym
+ResourcePack=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\_language-en.appx
+ResourcePack=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\_scale-100.appx
+ResourcePack=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\_scale-125.appx
+ResourcePack=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\_scale-150.appx
+ResourcePack=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\_scale-400.appx
