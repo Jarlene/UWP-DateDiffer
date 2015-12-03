@@ -1,2 +1,2 @@
-MainPackage=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\bin\x86\Release\Upload\DateDiffer_3.3.1.0_x86.appx
-SymbolPackage=C:\Edi-TFS\UWP-DateDiffer\DateDiffer-vNext\DateDiffer\AppPackages\DateDiffer_3.3.1.0\DateDiffer_3.3.1.0_x86.appxsym
+MainPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\bin\x86\Release\Upload\DateDiffer_3.3.3.0_x86.appx
+SymbolPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\AppPackages\DateDiffer_3.3.3.0\DateDiffer_3.3.3.0_x86.appxsym
