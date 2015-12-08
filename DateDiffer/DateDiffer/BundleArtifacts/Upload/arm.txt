@@ -1,5 +1,5 @@
-MainPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\bin\ARM\Release\Upload\DateDiffer_3.3.3.0_ARM.appx
-SymbolPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\AppPackages\DateDiffer_3.3.3.0\DateDiffer_3.3.3.0_ARM.appxsym
+MainPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\bin\ARM\Release\Upload\DateDiffer_3.3.5.0_ARM.appx
+SymbolPackage=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\AppPackages\DateDiffer_3.3.5.0\DateDiffer_3.3.5.0_ARM.appxsym
 ResourcePack=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\_language-en.appx
 ResourcePack=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\_scale-100.appx
 ResourcePack=C:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\_scale-125.appx

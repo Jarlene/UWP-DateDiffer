@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="58027.12280C5532390" Publisher="CN=DB299AFD-CD90-4B49-8407-33F11AF0C784" Version="3.3.3.0" />
+  <Identity Name="58027.12280C5532390" Publisher="CN=DB299AFD-CD90-4B49-8407-33F11AF0C784" Version="3.3.5.0" />
   <mp:PhoneIdentity PhoneProductId="cd8ff41b-9ef8-4854-a752-5d5e8b4bf673" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>时间差计算器</DisplayName>

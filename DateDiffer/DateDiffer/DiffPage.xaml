@@ -27,7 +27,7 @@
                     <FontIcon Glyph="M" FontFamily="Segoe UI"/>
                 </AppBarButton.Icon>
             </AppBarButton>
-            <AppBarButton x:Uid="BtnSecond" Label="Seconds" x:Name="BtnSecond" Command="{Binding CommandToSeconds}">
+            <AppBarButton x:Uid="BtnSecond" Label="" x:Name="BtnSecond" Command="{Binding CommandToSeconds}">
                 <AppBarButton.Icon>
                     <FontIcon Glyph="S" FontFamily="Segoe UI"/>
                 </AppBarButton.Icon>

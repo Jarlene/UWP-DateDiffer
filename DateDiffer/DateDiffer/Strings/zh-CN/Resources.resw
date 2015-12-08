@@ -150,7 +150,7 @@
   <data name="BtnReview.Label" xml:space="preserve">
     <value>评分</value>
   </data>
-  <data name="BtnSecond" xml:space="preserve">
+  <data name="BtnSecond.Label" xml:space="preserve">
     <value>秒</value>
   </data>
   <data name="BtnSelect.Label" xml:space="preserve">
