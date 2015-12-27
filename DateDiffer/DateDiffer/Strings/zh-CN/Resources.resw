@@ -235,4 +235,7 @@ It is fully open source on GitHub in order to help people learn about UWP develo
   <data name="TxtWorldClock.Text" xml:space="preserve">
     <value>世界时钟</value>
   </data>
+  <data name="AppName" xml:space="preserve">
+    <value>时间差计算器</value>
+  </data>
 </root>
