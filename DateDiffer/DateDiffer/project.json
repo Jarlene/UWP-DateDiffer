@@ -1,9 +1,9 @@
 ﻿{
   "dependencies": {
-    "Edi.UWP.Helpers": "1.0.8",
+    "Edi.UWP.Helpers": "1.0.9",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
     "MvvmLight": "5.2.0",
-    "Newtonsoft.Json": "7.0.1",
+    "Newtonsoft.Json": "8.0.1",
     "WinRTTimeZones": "1.1.2"
   },
   "frameworks": {

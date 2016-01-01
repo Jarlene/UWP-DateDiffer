@@ -11,7 +11,6 @@
     <Page.BottomAppBar>
         <CommandBar Background="#0072BC" RequestedTheme="Dark">
             <AppBarButton Label="" x:Name="BtnAbout" x:Uid="BtnAbout" Click="BtnAbout_OnClick" Icon="Emoji2"/>
-            <AppBarButton Label="" x:Name="BtnReview" x:Uid="BtnReview" Click="BtnReview_OnClick" Icon="Favorite"/>
         </CommandBar>
     </Page.BottomAppBar>
     
@@ -39,74 +38,68 @@
         </StackPanel>
 
         <Grid Grid.Row="1" Margin="19,39.5,19,0">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
-            
-            <Grid.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="Margin" Value="0,0,10,10" />
-                </Style>
-                <Style TargetType="FontIcon">
-                    <Setter Property="Foreground" Value="White" />
-                </Style>
-            </Grid.Resources>
+            <ScrollViewer>
+                <RelativePanel>
+                    <RelativePanel.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="Margin" Value="0,0,10,10" />
+                            <Setter Property="MinHeight" Value="130" />
+                            <Setter Property="MinWidth" Value="130" />
+                        </Style>
+                        <Style TargetType="FontIcon">
+                            <Setter Property="Foreground" Value="White" />
+                        </Style>
+                    </RelativePanel.Resources>
 
-            <Border Grid.Row="0" Grid.Column="0"
-                    Tapped="GoToDiffPage"
+                    <Border x:Name="BorderDiff" Tapped="GoToDiffPage"
                     Background="#CC3300">
-                <Grid Margin="5">
-                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE1D0;" FontSize="44" />
-                    <TextBlock x:Uid="TxtDateTimeDiff" Foreground="White"
+                        <Grid Margin="5">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE1D0;" FontSize="44" />
+                            <TextBlock x:Uid="TxtDateTimeDiff" Foreground="White"
                                FontSize="14"
                                VerticalAlignment="Bottom" 
                                Text="" />
-                </Grid>
-            </Border>
+                        </Grid>
+                    </Border>
 
-            <Border Grid.Row="0" Grid.Column="1"
-                    Tapped="GoToConvertPage"
-                    Background="#009933">
-                <Grid Margin="5">
-                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE1DB;" FontSize="44" />
+                    <Border x:Name="BorderConvert"  Tapped="GoToConvertPage"
+                    Background="#009933" RelativePanel.RightOf="BorderDiff">
+                        <Grid Margin="5">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE1DB;" FontSize="44" />
 
-                    <TextBlock x:Uid="TxtConvertor" Foreground="White"
+                            <TextBlock x:Uid="TxtConvertor" Foreground="White"
                                FontSize="14"
                                VerticalAlignment="Bottom" 
                                Text="" />
-                </Grid>
-            </Border>
+                        </Grid>
+                    </Border>
 
-            <Border Grid.Row="1" Grid.Column="0"
-                    Tapped="GoToTimeZonePage"
-                    Background="#0072BC">
-                <Grid Margin="5">
-                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE128;" FontSize="44" />
+                    <Border x:Name="BorderTimeZone" Tapped="GoToTimeZonePage"
+                    Background="#0072BC" RelativePanel.Below="BorderDiff">
+                        <Grid Margin="5">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE128;" FontSize="44" />
 
-                    <TextBlock x:Uid="TxtTimeZone" Foreground="White"
+                            <TextBlock x:Uid="TxtTimeZone" Foreground="White"
                                FontSize="14"
                                VerticalAlignment="Bottom" 
                                Text="" />
-                </Grid>
-            </Border>
+                        </Grid>
+                    </Border>
 
-            <Border Grid.Row="1" Grid.Column="1"
+                    <Border
                     Tapped="GoToClockPage"
-                    Background="#FF9933">
-                <Grid Margin="5">
-                    <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE121;" FontSize="44" />
-                    <TextBlock x:Uid="TxtWorldClock" Foreground="White"
+                    Background="#FF9933" RelativePanel.Below="BorderConvert"
+                    RelativePanel.RightOf="BorderTimeZone">
+                        <Grid Margin="5">
+                            <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE121;" FontSize="44" />
+                            <TextBlock x:Uid="TxtWorldClock" Foreground="White"
                                FontSize="14"
                                VerticalAlignment="Bottom" 
                                Text="" />
-                </Grid>
-            </Border>
+                        </Grid>
+                    </Border>
+                </RelativePanel>
+            </ScrollViewer>
         </Grid>
     </Grid>
 </Page>

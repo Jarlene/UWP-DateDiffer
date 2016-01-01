@@ -43,23 +43,13 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <StackPanel Grid.Column="0">
-                    <DatePicker Margin="0,0,5,0" Header="Date" Date="{Binding SelectedDate, Mode=TwoWay, Converter={StaticResource DateTimeToOffsetConverter}}" />
-                </StackPanel>
-
-                <StackPanel Grid.Column="1">
-                    <TimePicker Margin="5,0,0,0" Header="Time" Time="{Binding SelectedTime, Mode=TwoWay}" />
-                </StackPanel>
-            </Grid>
+            <StackPanel  Grid.Row="0">
+                <DatePicker Margin="0,0,0,10" Header="Date" Date="{Binding SelectedDate, Mode=TwoWay, Converter={StaticResource DateTimeToOffsetConverter}}" />
+                <TimePicker Margin="0,0,0,10" Header="Time" Time="{Binding SelectedTime, Mode=TwoWay}" />
+            </StackPanel>
 
             <StackPanel Grid.Row="1">
-                <ComboBox x:Uid="CbSelTz" Header="" SelectedValuePath="Id" ItemsSource="{Binding AllTimeZones, Mode=TwoWay}" SelectedItem="{Binding SelectedTimeZone, Mode=TwoWay}">
+                <ComboBox x:Uid="CbSelTz" Header="Time Zone" SelectedValuePath="Id" ItemsSource="{Binding AllTimeZones, Mode=TwoWay}" SelectedItem="{Binding SelectedTimeZone, Mode=TwoWay}">
                     <ComboBox.ItemTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding DisplayName}" TextWrapping="Wrap" />
