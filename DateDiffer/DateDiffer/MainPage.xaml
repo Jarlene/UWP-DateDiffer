@@ -32,9 +32,9 @@
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
             <TextBlock x:Uid="TxtLocalTime" Text="" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
             <TextBlock Text="{Binding CurrentTime, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:HH:mm:ss}', Mode=TwoWay}" Margin="0,-6.5,0,10" Style="{ThemeResource HeaderTextBlockStyle}" 
-                       FontSize="72" 
+                       FontSize="58" 
                        CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
-            <TextBlock Text="{Binding CurrentTime.Date, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:MM/dd/yyyy dddd}', Mode=TwoWay}" FontSize="22" />
+            <TextBlock Text="{Binding CurrentTime.Date, Converter={StaticResource StringFormatConverter}, ConverterParameter='{}{0:MM/dd/yyyy dddd}', Mode=TwoWay}" FontSize="20" />
         </StackPanel>
 
         <Grid Grid.Row="1" Margin="19,39.5,19,0">
