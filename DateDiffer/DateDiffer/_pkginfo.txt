@@ -1,1 +1,1 @@
-D:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\AppPackages\DateDiffer_3.3.8.0\DateDiffer_3.3.8.0_x86_x64_arm.appxbundle
+D:\Edi-GitHub\UWP-DateDiffer\DateDiffer\DateDiffer\AppPackages\DateDiffer_3.3.9.0\DateDiffer_3.3.9.0_x86_x64_arm.appxbundle
