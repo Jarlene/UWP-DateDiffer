@@ -5,6 +5,7 @@
     xmlns:local="using:DateDiffer"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:RateMyApp.UWP.Controls"
     DataContext="{Binding Source={StaticResource Locator}, Path=Main}"
     mc:Ignorable="d">
 
@@ -13,7 +14,7 @@
             <AppBarButton Label="" x:Name="BtnAbout" x:Uid="BtnAbout" Click="BtnAbout_OnClick" Icon="Emoji2"/>
         </CommandBar>
     </Page.BottomAppBar>
-    
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.ChildrenTransitions>
             <TransitionCollection>
@@ -27,6 +28,16 @@
         </Grid.RowDefinitions>
 
         <Image Grid.Row="0" VerticalAlignment="Top" Grid.RowSpan="2" Source="Assets/background.png"></Image>
+
+        <controls:FeedbackOverlay x:Uid="RMA" 
+                x:Name="FeedbackOverlay"
+                                  Grid.Row="0"
+                                  Grid.RowSpan="2"
+                FeedbackTo="Edi.Wang@outlook.com"
+                ApplicationName="Date Differ"
+                CompanyName="edi.wang"
+                FirstCount="3"
+                SecondCount="6" />
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
