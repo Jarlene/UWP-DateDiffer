@@ -203,7 +203,7 @@ It is fully open source on GitHub in order to help people learn about UWP develo
     <value>转换器</value>
   </data>
   <data name="TxtConvertPageTitle.Text" xml:space="preserve">
-    <value>时间差计算器</value>
+    <value>时间日期计算器</value>
   </data>
   <data name="TxtDateTimeDiff.Text" xml:space="preserve">
     <value>时间差计算</value>
@@ -212,7 +212,7 @@ It is fully open source on GitHub in order to help people learn about UWP develo
     <value>时间差</value>
   </data>
   <data name="TxtDiffPageTitle.Text" xml:space="preserve">
-    <value>时间差计算器</value>
+    <value>时间日期计算器</value>
   </data>
   <data name="TxtLocalTime.Text" xml:space="preserve">
     <value>本地时间</value>
@@ -227,7 +227,7 @@ It is fully open source on GitHub in order to help people learn about UWP develo
     <value>时区</value>
   </data>
   <data name="TxtTimeZonePageTitle.Text" xml:space="preserve">
-    <value>时间差计算器</value>
+    <value>时间日期计算器</value>
   </data>
   <data name="TxtUtcTime.Text" xml:space="preserve">
     <value>UTC时间</value>
@@ -236,6 +236,6 @@ It is fully open source on GitHub in order to help people learn about UWP develo
     <value>世界时钟</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>时间差计算器</value>
+    <value>时间日期计算器</value>
   </data>
 </root>
